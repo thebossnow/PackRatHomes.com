@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">  <!-- Your CSS file -->
+</head>
+<body>
+    {% include header.html %}
+    {% include nav.html %}
+    {{ content }}  <!-- Page-specific content goes here -->
+    {% include footer.html %}
+</body>
+</html>
