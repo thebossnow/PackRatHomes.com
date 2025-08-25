@@ -1,0 +1,7 @@
+title: Pack Rat Homes
+description: Compassionate Hoarding Cleanup & Real Estate Solutions
+baseurl: ""  # Leave empty for root domain
+url: "https://packrathomes.com"
+theme: minima  # Free default theme; or remove for custom
+plugins:
+  - jekyll-feed  # Optional: For RSS if you add a blog
